@@ -37,7 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div xml:id="S7">
             <lg xml:id="S7S1">
                <l xml:id="S7V1">Solcata ho fronte, occhi incavati intenti,</l>
                <l xml:id="S7V2">Crin fulvo, emunte guance, ardito aspetto,</l>
