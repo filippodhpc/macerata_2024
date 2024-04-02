@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edizione digitale delle sonetto 7 di Ugo Foscolo secondo la prima edizione pisana, stampata nel fascicolo di ottobre, tomo IV, del Nuovo Giornale dei Letterati</title>
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="Pg" type="rivista">
+               <title>Nuovo giornale dei Letterati, tomo IV, Fascicolo di ottobre</title>
+               <author>Ugo Foscolo</author>
+               <date when="1802">1802</date>
+               <pubPlace>Pisa</pubPlace>
+               <editor>Tipografia della società letteraria</editor>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Si codifica il sonetto 7 secondo il testo della prima edizione pisana, stampata nel tomo IV, fascicolo di ottobre, del Nuovo Giornale dei Letterati</p>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="S7"> 
+            <epigraph>
+               <l>Ch'altri non ho che me di cui mi lagne.</l><bibl>PETR.</bibl>
+            </epigraph>
+            <lg xml:id="S7S1">
+               <l xml:id="S7V1">Solcata ho fronte, occhi incavati intenti,</l>
+               <l xml:id="S7V2">Crin fulvo, emunte guance, ardito aspetto,</l>
+               <l xml:id="S7V3">Labbro tumido, acceso, e tersi denti,</l>
+               <l xml:id="S7V4">Capo chino, bel collo, e largo petto.</l>
+            </lg>
+            <lg xml:id="S7S2">
+               <l xml:id="S7V5">Giuste membra; vestir mondo e negletto;</l>
+               <l xml:id="S7V6">Ratti i passi, i pensier, gli atti, gli accenti;</l>
+               <l xml:id="S7V7">Sobrio, umano, leal, prodigo, schietto;</l>
+               <l xml:id="S7V8">Avverso al mondo; avversi a me gli eventi.</l>
+            </lg>
+            <lg xml:id="S7S3">
+               <l xml:id="S7V9">Talor di lingua, e spesso di man prode;</l>
+               <l xml:id="S7V10">Mesto sovente e solo; ognor pensoso,</l>
+               <l xml:id="S7V11">Pronto, iracondo, inquíeto, tenace;</l>
+            </lg>
+            <lg xml:id="S7S4">
+               <l xml:id="S7V12">Errar, pentirmi, e alla ragion dar lode,</l>
+               <l xml:id="S7V13">Ma retta al cor; cercare or gloria, or pace,</l>
+               <l xml:id="S7V14">E da morte aspettar fama, e riposo.</l>
+            </lg>
+         </div> 
+      </body>
+   </text>
+</TEI>
