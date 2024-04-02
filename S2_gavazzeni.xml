@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commenti alle poesie foscoliane, per un'edizione digitale</title>         
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <!-- Primo sourceDesc entro cui codifico l'edizione del commento -->
+         <sourceDesc>
+            <bibl>
+               <author xml:id="UF">Ugo Foscolo</author>
+               <title>Ugo Foscolo, Opere</title>
+               <editor xml:id="FG">Franco Gavazzeni</editor>
+               <biblScope unit="volume">I</biblScope>
+               <publisher>Riccardo Ricciardi</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>1974</date>
+            </bibl>
+         </sourceDesc>
+         <sourceDesc>
+            <listBibl>
+               <bibl>...</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body> 
+        <div type="intro">
+           <note target="#S2">
+            Pubblicato dapprima nel «Nuovo Giornale dei Letterati», in testa alla
+            serie degli otto sonetti, <bibl corresp="#Foscolo_Non">Non son chi fui; perì di noi gran parte</bibl> era immediatamente 
+            seguito da <bibl corresp="#Foscolo_Che">Che stai? già il secol l’orma ultima lascia</bibl>, con il quale
+            originalmente costituiva un dittico legato da uno stretto rapporto causale,
+            poi differito a vantaggio di una più complessa articolazione, dettata dall’
+            inclusione nella ristampa milanese del Destefanis di tre nuovi pezzi (su
+            tutto ciò vedi la nota introduttiva alle <bibl corresp="#Foscolo_Poesie">Poesie</bibl>, a p. 164).
+            Relativamente all’accennata connessione tra i due sonetti, sintomatica 
+            è innanzitutto la similarità del costrutto, rispettivamente al v. 9 e
+            al v. 5, così come l’eccezionalità del valore conferito alla congiunzione 
+            (per cui vedi la nota al v. 9), oltre all’affinità tematica dell’ultimo
+            verso: «e so invocare e non darmi la morte», «[...] E già morte t’è appresso» 
+            come si legge in <bibl corresp="#P">P</bibl> (poi, per il tramite del v. 14 di <emph>Solcata ho
+            fronte, occhi incavati intenti</emph>: <quote source="#Foscolo_Solcata_P" ana="v.14">«e da morte aspettar fama, e riposo»</quote> in
+            P, <quote source="#Foscolo_Solcata_M" ana="v.14">«morte sol mi darà fama e riposo»</quote> in D N, nelle stampe milanesi: <quote source="#Foscolo_Solcata" ana="v.14">«fama
+            tentino almen libere carte»</quote>), cui può aggiungersi la comune tendenza
+            agli elenchi autobiografici in forma di polisindeto, caratteristica dei vv.
+            12-3 di <bibl corresp="Foscolo_Non" ana="vv.12-3">Non son chi fui; perì di noi gran parte</bibl>, e dei vv. 9-11 di 
+            <bibl corresp="Foscolo_Che" ana="vv.9-11">Che stai? già il secol l’orma ultima lascia</bibl> (poi, unitamente all’asindeto, esclusiva
+            figura di <bibl corresp="#Foscolo_Solcata">Solcata ho fronte, occhi incavati intenti</bibl>). Segnalata la 
+            relativa rarità di <emph>enjambements</emph> (vv. 3-4: «le foglie sparte / del lauro», secondo
+            sirrema sostantivo-complemento di specificazione che si ritrova anche in
+            <emph>Perché taccia il rumor di mia catena</emph>, vv. 12-3: <quote source="#Foscolo_Perché" ana="vv.12-3">«ed il candore / delle divine
+            membra»</quote>; <emph>Forse perché della fatal quiete</emph>, vv. 11-2: <quote source="Foscolo_Forse" ana="vv.11-2">«le torme / delle cure»</quote>
+            - ma vv. 1 -2: <quote source="#Foscolo_Forse" ana="vv.1-2">«della fatal quiete / tu sei l’immago»</quote> -; <emph>Né più mai toccherò
+            le sacre sponde</emph>, vv. 3-4: <quote source="Foscolo_Né" ana="vv.3-4">«nell’onde / del greco mar»</quote>), per la quale vedi la
+            nota introduttiva a <bibl corresp="#Foscolo_Che">Che stai? già il secol l’orma ultima lascia</bibl>, a p. 246, va
+            ancora notato come la coincidenza di ogni periodo con la strofe è solo
+            proprio a <bibl corresp="#Foscolo_Un">Un dì, s’io non andrò sempre fuggendo</bibl>, cui il presente sonetto
+            si collega per la puntuale desunzione dell’<emph>incipit</emph> da una fonte classica.
+            L’effetto di recisa determinazione conseguente alla negazione iniziale è
+            poi essenzialmente frutto del costante andamento ritmico degli endecasillabi,
+            ad eccezione del v. 10, tutti <emph>a minore</emph>, oltre che del procedere binario
+            del periodare delle quartine, e, per quanto concerne i vv. 10-3, anche
+            delle terzine, della struttura dicotomica del verso (vv. 1, 2, 3, 11, 13, 14),
+            delle serie elencative (vv. 7-8, 12), della simmetrica corrispondenza delle
+            strofe. Se infatti la struttura dicotomica dei vv. 1-3 non è replicata nella
+            seconda quartina, va tuttavia osservato come l’analogo andamento binario
+            (istituzionale nel caso di rime ABAB), sia ugualmente rilevato, ai vv. 3 e
+            7, da <emph>enjambement</emph>, rincalzato ai vv. 4 e 8 da espressioni di valore appositivo,
+            mentre la coordinazione di due proposizioni principali al v. 3, nella 
+            seconda quartina è ripresa e generalizzata, nella medesima sede, al v.
+            7. Al parallelismo strutturale delle quartine, si contrappone quindi la
+            costruzione a chiasmo delle terzine (vv. 9, 10-1, 12-3, 14), nelle quali
+            i termini medi, e cioè i vv. 10-1 e 12-3, non solo riproducono l’andamento 
+            binario del periodare caratteristico dei vv. 1-8 (e, nella fattispecie,
+            ancora esemplato sopra uno schema di rime alterne DC, DC), ma riassumendone 
+            anche figure già sperimentate, come la demarcazione del verso
+            nel punto d’incidenza metrica degli emistichi, ne variano finalmente la
+            funzione, conferendo al secondo emistichio un valore, da accumulativo
+            (come ai vv. 1, 3), sostanzialmente oppositivo (come ai vv. 11, 13, 14).
+            </note>
+         </div>
+         <!-- Inserisco una nuova div per lo schema rimico e il metro -->
+         <div type="metro">
+            <note target="#S2">Metro: sonetto: ABAB, AB AB, CDC, DCD.</note>
+         </div>
+         <!-- div per il testo del commento al sonetto -->
+         <div type="commento">
+            <noteGrp target="#S2">
+               <note target="#S2V1" targetEnd="#S2V2">
+                  <ref rend="bold">1-2. Non...pianto</ref>: vedi Massimiano, <emph>Elegiae</emph>, I, 1-2: 
+                  <quote source="#Massimiano_Elegie" ana="I, 1-2" >
+                     <foreign xml:lang="lat">«Non sum qui fueram: perit pars maxima nostri;<lb/> 
+                     hoc quoque quod superest languor et horror habet»<lb/></foreign>
+                  </quote>
+                  <bibl corresp="#Foscolo_Carrer">(Carrer)</bibl>. E in lettera all’Arese, 
+                  <emph>Epistolario</emph>, I, p. 318: 
+                  <quote source="#Epistolario">
+                   «Mi sento mancare una parte della vita, e questo che mi avanza mi pare che sia
+                   circondato dal languore e dalla tristezza della morte» 
+                  </quote>
+                  <bibl corresp="#Foscolo_Mestica">(Mestica)</bibl>, 
+                  e ancora nell'<emph>Ortis</emph> (1802): <quote source="#Foscolo_Ortis">«[...] sai che non altro m’avanza fuorché il pianto e la morte»</quote> 
+                  <bibl corresp="#Foscolo_Mestica">(Mestica)</bibl>. 
+                  Vedi inoltre Petrarca, <emph>Rime</emph>, XXXVII, 52:
+                  <quote source="#Petrarca_Rime" ana="XXXVII, v.52">«[...] di me la miglior parte [...]»</quote>; Bembo, CXLIII, 10: 
+                  <quote source="#Bembo_Rime" ana="CXLIII, v.10">«di me stesso sparir la miglior parte»</quote>; Alfieri, <emph>Agide</emph>, atto I, scena I, 3: 
+                  <quote source="#Alfieri_Agide" ana="atto I, scena I, v.3">«o d’essa almen la miglior parte»</quote>; <emph>Alcesti</emph>, atto II, scena IV, 1-2: 
+                  <quote source="#Alfieri_Alcesti" ana="atto II, scena IV">«Admeto parte miglior dell’alma mia tu vivi»</quote>; <emph>Congiura de’ Pazzi</emph>, atto III, scena II, 98-9: 
+                  <quote source="#Alfieri_Congiura" ana="atto III, scena II, v.98-9">«[...] dolce consorte, / parte di me miglior»</quote>; atto V, scena V, 47-8: 
+                  <quote source="#Alfieri_Congiura" ana="atto V, scena V, v.47-8">«o Bianca...o dolce sposa.../ parte di me [...] »</quote>; <emph>Filippo</emph>, atto I, scena II, 49-50: 
+                  <quote source="#Alfieri_Filippo" ana="atto I, scena II, v.49-50">«in me cogli anni crebbe / parte miglior di me»</quote>; <emph>Oreste</emph>, atto IV, scena IV, 94: 
+                  <quote source="#Alfieri_Oreste" ana="atto IV, scena IV, v.94">«o voi, miglior parte di me [...]»</quote>; <emph>Polinice</emph>, atto III, scena II, 19-20: 
+                  <quote source="#Alfieri_Polinice">«[...] quindi egli, / parte miglior di sé»</quote>; <emph>Rime</emph>, XC, 9: 
+                  <quote source="#Alfieri_Rime" ana=" XC, v.9">«parte di me miglior, mia donna,m’odi»</quote>. 
+                  <ref rend="bold">1. Non...fui</ref>: vedi Petrarca, <emph>Rime</emph>, I, 4: 
+                  <quote source="#Petrarca_Rime" ana="I, v.4">«quand’era in parte altr’uom da quel ch’i’sono»</quote>; XXIII, 30: 
+                  <quote source="#Petrarca_Rime" ana="XXII, v.30">«Lasso, che son! che fui!»</quote>; Giusto de’ Conti, <emph>Rosello, io fui dinanzi al bel sembiante</emph>, 13: 
+                  <quote source="#Giusto" ana="v.13">«Non so me stesso s’io son quel ch’io m’era»</quote>; Marullo, XXXVII, 2: 
+                  <quote source="#Marullo" ana="XXXVII, v.2">«ipse ego iam quis sim nescio aut ubi sim»</quote>; Tasso, III, [667] 168, 37: 
+                  <quote source="#Tasso_Rime" ana="III, 168, v.37">«qual son, qual fui [...]»</quote>; III, [858] 359, 5: 
+                  <quote source="#Tasso_Rime" ana="III, 359, v.5">«Qual fui penso e qual sono [...]»</quote>; Metastasio, <emph>Attilio Regolo</emph>, atto III, scena II, 61: 
+                  <quote source="#Metastasio_Attilio">«Non son qual fui [. ..]»</quote>; Mazza, I, <emph>Senza che appressi al solio alto di Lui</emph>, 8: 
+                  <quote source="#Mazza">«non son qual era, e non sarò qual fui»</quote>.
+                  <ref rend="bold">2. questo che avvanza</ref>: oltre al passo dell’<bibl corresp="#Foscolo_Ortis">Ortis</bibl> citato nella nota ai vv. 1-2,
+                  vedi <emph>In morte del padre</emph>, sonetto, <emph>Padre, quand’io per la tua muta tomba</emph>, 14:
+                  <quote source="#Foscolo_padre" ana="v.14">«non altro avvanza che miseria, e lutto»</quote> (<emph>Edizione Nazionale</emph>, II, p. 299), e il sonetto 
+                  <bibl corresp="#F" ana="v.12">Un dì, s’io non andrò sempre fuggendo, 12</bibl>. E Petrarca, <emph>Rime</emph>, CCLXVIII, 32: 
+                  <quote source="#Petrarca_Rime" ana="CCLXVIII, v.32">«questo m’avanza di cotanta spene»</quote>; Bembo, CXLII, 80:
+                  <quote source="#Bembo_Rime" ana="CXLII, v.80">«altro che pianto e duol nulla m’avanza»</quote>; CLIII, 11: 
+                  <quote source="#Bembo_Rime" ana="CLIII, v.11">«[...] e sol pianger m’avanza»</quote>; II, p. 676, 24: 
+                  <quote source="#Bembo_Rime" ana="II, p. 676, v.24">«questo m’avanza di cotanta speme»</quote>; Della Casa, son XIII, 8: 
+                  <quote source="#DellaCasa" ana="XIII, v.8">«che sol m’avanza ornai pianto e disdegno»</quote>; Tasso, IV, [1175] 676, 4: 
+                  <quote source="#Tasso_Rime" ana="676, v.4">«[...] Questo ch’avanza [...]»</quote>. 
+               </note>
+               <note target="#S2V3" targetEnd="#S2V3">
+                  <ref rend="bold">3-4. E...canto</ref>: e l’amore si è estinto (il mirto è pianta sacra a Venere, e simboleggia l’amore), e sono
+                  cadute disperse le foglie del lauro (sacro ad Apollo, e simbolo della gloria
+                  poetica, e come tale ricordato nei <emph>Sepolcri</emph>, 55: 
+                  <quote source="#Foscolo_Sepolcri" ana="v.55">«nel suo povero tetto educò un lauro»</quote>, e nelle <emph>Grazie</emph>, I, 264-5: 
+                  <quote source="#Foscolo_Grazie" ana="I, vv.264-5">«[...] e sorridete / a’ vati, se cogliean puri l’alloro»</quote>), conseguenza dell’essiccarsi della vena poetica,
+                  «speranza dei miei versi giovanili» <bibl corresp="#Foscolo_Ferrari">(Ferrari)</bibl>. 
+                  Nota ancora il Ferrari: 
+                  <quote source="#Foscolo_Ferrari">«le due metafore si trovano accoppiate pur dal Monti nel Congresso d’Udine
+                  (parla della repubblica Cisalpina) 38: 
+                     <quote source="#Monti_Udine">
+                        “e il ferro trae, gittando la vagina, / desïosa di lauro e non di mirto”
+                     </quote>; ma nel Monti lauro sta propriamente e
+                        solo per Gloria militare».
+                  </quote>
+                  Ma vedi piuttosto Petrarca, <emph>Rime</emph>, VII, 9:
+                  <quote source="#Petrarca_Rime" ana="VII, v.9">«Qual vaghezza di lauro ? qual di mirto»</quote> <bibl source="#Foscolo_Padovan">(Padovan)</bibl>; Giusto de’ Conti, <emph>Questa leggiadra, e pura mia Colomba</emph>, 11: 
+                  <quote source="#Giusto">«né il lauro secco già per me s’infronde»</quote>; Lorenzo de’ Medici, <emph>Ambra</emph>, 2,1 -2: 
+                  <quote source="#LorenzoDeMedici_Ambra" ana="2, v.1-2">«Fra gli arbor secchi stassi il lauro lieto / e di Ciprigna l’odorato arbusto»</quote> (Opere, a cura di A. Simioni,
+                  Bari, Laterza, 1913, I, p. 291); Sannazzaro, <emph>Arcadia</emph>, <emph>A la Sampogna</emph>:
+                  <quote source="#Sannazzaro" ana="A la Sampogna">«Le nostre Muse sono estinte: secchi sono i nostri lauri [...]»</quote> (Opere di
+                  J. Sannazzaro, a cura di E. Carrara, Torino, UTET, 1952, p. 218); Bembo,  CLIII, 117-20: 
+                  <quote source="#Bembo_Rime" ana="CLIII, vv.117-20">«O vecchiezza ostinata ed infelice, / a che mi serbi ancor nuda radice, / se 'l tronco, in cui fioriva la mia speme, / è secco [...]»</quote>; Tasso, II, [189] 60, 1-3: 
+                  <quote source="#Tasso_Rime" ana="II, 60, vv.1-3">«Secco è l’arbor gentile / che mai le frondi e 'l verde / o per gelo o per fulmini non perde»</quote>; II, [419] 32, 11: 
+                  <quote source="#Tasso_Rime" ana="II, 32, v.11">«il mio già secco lauro e secco mirto»</quote>; IV, [1046] 547, 1-2: 
+                  <quote source="#Tasso_Rime" ana="IV, 547, vv.1-2">«Roche già son le cetre e muti i cigni / al languir vostro e secco 'l lauro e 'l mirto»</quote>. 
+                  <ref rend="bold">3. mirto</ref>:, vedi l’ode <bibl corresp="#Foscolo_AllAmica" ana="v.74">Alla amica risanata, 74</bibl>; 
+                  <ref rend="bolf">sparte</ref>: vedi Dante, <emph>Inf</emph>., XIV, 2: 
+                  <quote source="#Dante_Commedia" ana="Inf., XIV, v.2">«[...]raunai le fronde sparte»</quote>; <emph>Purg</emph>., XXXI, 50-1: 
+                  <quote source="#Dante_Commedia" ana="Purg., XXXI, vv.50-1">«[...] le belle membra in ch’io / rinchiusa fui, e che so’ ’n terra sparte»</quote>; <emph>Par</emph>., XXXI, 130: 
+                  <quote source="#Dante_Commedia" ana="Par., XXXI, v.130">«e a quel mezzo, con le penne sparte»</quote>; Bembo, XXII, 7: 
+                  <quote source="#Bembo_Rime" ana="XXII, v.7">«[...] i miei pensieri sparti»</quote>; Tasso, II, [192] 63, 8: 
+                  <quote source="#Tasso_Rime" ana="II, 63, v.8">«gir adunando le sue fronde sparte»</quote>. E per «membra» sparte in rima con arte vedi Parini, <emph>A Silvia</emph>, 90 e 92: 
+                  <quote source="#Parini_Odi" ana="A Silvia, vv.90 e 92">«e de le membra sparte /[...]/ e del morir con arte»</quote>.
+              </note>
+               <note target="#S2V5" targetEnd="#S2V8">
+                  <ref rend="bold">5-8. Perché...vanto</ref>: e infatti dal giorno in cui la licenza rivoluzionaria e 
+                  la guerra mi adusarono alla violenza sanguinaria, la mia mente fu accecata dalle 
+                  passioni, divenendo incapace di distinguere il bene dal male, e l’animo si corruppe, 
+                  così che il desiderio di ricchezze, di cui anche meno vanto, divenne in me arte. 
+                  L’identificazione di <emph>empia licenza</emph> con “<emph>licenza rivoluzionaria</emph>” si fonda su di un passo
+                  della dedica al fratello <persName corresp="#GDF">Gioan-Dionigi</persName> dell’ode <emph>Ai novelli repubblicani</emph> (1797), là dove il Foscolo scrive: 
+                  <quote source="#Foscolo_Repubblicani" ana="dedica">«Né la mia sorte è già dubbia; io mi resi santo il
+                  proposito di morir con la libertà, e di espormi contro il furore della licenza
+                  prima motrice di tirannia»</quote>, mentre <emph>vanto</emph> viene riferito alla
+                  fame d’oro, piuttosto che ad arte sulla scorta di quanto nota il Ferrari: 
+                  <quote source="#Foscolo_Ferrari">«Il <persName corresp="#MP">Pieri</persName> scrive che, lasciatolo giovinetto a Venezia, dove ostentava la sua
+                  povertà, lo trovò a Milano, qualche anno dopo che “vantava i comodi della vita”»</quote>. 
+                  La variante «l’umana strage» (per la cui posizione cronologica
+                  vedi nel il tomo la relativa nota al testo), in sostituzione del volgarizzamento della virgiliana 
+                  <quote source="Virgilio_Eneide" ana="III, v.57">«auri sacra fames»</quote>.(<emph>Aen</emph>., III, 57) rappresenta un
+                  netto salto di campo semantico, e lega certo meglio con quanto espresso ai
+                  vv. 5-7. Per il V. 6 vedi <emph>Bonaparte liberatore</emph>, 14: 
+                  <quote source="#Foscolo_Bonaparte" ana="v.14">«te se raccolse nel sanguineo seno»</quote>. Per il v. 7 vedi <emph>Ortis</emph> (1802): 
+                  <quote source="#Foscolo_Ortis_02">«La mia mente è cieca, le menbra oscillanti, e il cuore guasto qui nel profondo».</quote>
+               </note>
+               <note target="#S2V9">
+                  <ref rend="bold">9. Che...consiglio</ref>: e se pure sorge, si fa strada, il proposito del suicidio. 
+                  <ref rend="bold">Che se</ref>: con valore rafforzativo, come al v. 5 di 
+                  <bibl corresp="#Foscolo_CheStai" ana="v.5">Che stai? già il secai l’orma ultima lascia</bibl>, piuttosto che causale come al v. 5 di 
+                  <bibl corresp="#Foscolo_TeNudrice" ana="v.5">Te nudrice alle muse, ospite e Dea</bibl>, al v. 3 di 
+                  <bibl corresp="#Foscolo_Perché" ana="v.3">Perché taccia il rumor di mia catena</bibl> (nelle stampe milanesi,
+                  contrariamente alla forma con valore rafforzativo, le forme con valore
+                  causale sono accentate), e al v. 186 dei <bibl corresp="#Foscolo_Sepolcri" ana="v.186">Sepolcri</bibl>. 
+               </note>
+               <note target="#S2V10">
+                  <ref rend="bold">10. a...ragion</ref>: «fiera» nel senso di terribile al limite di una istintiva 
+                  irrazionalità è preposto antifrasticamente a ragion, determinazione
+                  maturata tramite ragionamento. Ma si tenga anche presente la possibile,
+                  se non probabile, alternativa costituita da fiera nel senso di trattante 
+                  <quote source="#Tommaseo_Bellini">«di cose e di accidenti spaventevoli e crudeli»</quote> (Tommaseo-Bellini), come in Boccaccio, Decameron, 4, 2: 
+                  <quote source="Boccaccio_Decameron" ana="4, 2">«Voglio che ne’ fieri ragionamenti, ed a’ miei accidenti in parte simili, Pampinea ragionando seguisca»</quote> (Tommaseo-Bellini); 
+                  <ref rend="bold">chiudon le porte</ref>: vedi Dante, <emph>Par</emph>., III, 43: 
+                  <quote source="#Dante_Commedia" ana="Par., III, v.43">«La nostra carità non serra porte»</quote>; Magno, <emph>Trovo, dovunque io giro 'l guardo intento</emph>, 12-3: 
+                  <quote source="#Cellio_Magno">«E s’al mesto pensier chiuder le porte / col chiuder gli occhi io cerco [...]»</quote>.
+               </note>
+               <note target="#S2V11">
+                  <ref rend="bold">11. furor di gloria</ref>: vedi Foscolo, <emph>Frammenti di un romanzo autobiografico</emph>:
+                  <quote source="#Foscolo_autobiografico">«Ho sentito...lo dico arrossendo...ho sentito e sento - lascia prima
+                  ch’io mi copra con le mani la faccia - una febbre di gloria che m’ubbriaca
+                  perpetuamente la testa»</quote>; 
+                  <quote source="#Foscolo_autobiografico">«Ma io mi sentiva rodere a un tempo dalla fame di 
+                  gloria»</quote>. E vedi nel II tomo l'<emph>Orazione a Bonaparte pel Congresso di Lione</emph>, I:
+                  <quote source="#Foscolo_orazioneLione" ana="I">«ma pieno dell’alto soggetto e del furore di gloria»</quote>; e anche <emph>Sepolcri</emph>, 137: 
+                  <quote source="#Foscolo_Sepolcri" ana="v.137">«Ma, ove dorme il furor d’inclite geste»</quote>; 
+                  <ref rend="bold">carità di figlio</ref>: vedi Dante, Inf., XIV, 1: 
+                  <quote source="#Dante_Commedia" ana="Inf., XIV, v.1">«Poi che la carità del natio loco»</quote> <bibl corresp="#Foscolo_Ferrari">(Ferrari)</bibl>. 
+               </note>
+               <note target="#S2V12" targetEnd="#S2V14">
+                  <ref rend="bold">12-4. Tal...morte</ref>: e però (tal: così) condizionato da me, dal mio prossimo 
+                  e dal destino, come so riconoscere il partito migliore senza con ciò evitare 
+                  di attenermi al peggiore, così ho la forza di desiderare la morte senza trovare 
+                  poi quella di darmela effettivamente.
+                  <ref rend="bold">13. conosco...mi appiglio</ref>: vedi Petrarca, <emph>Rime</emph>, CCLXIV, 136: 
+                  <quote source="#Petrarca_Rime" ana="CCLXIV, v.136">«et veggio'l meglio, et al peggior m’appiglio»</quote> <bibl corresp="#Foscolo_Ferrai">(Ferrari)</bibl>, a sua volta discendente da
+                  Ovidio, <emph>Metam</emph>., VII, 20-1: 
+                  <quote source="#Ovidio_Metamorfosi" ana="VII, vv.20-1">«[...] video meliora proboque, / deteriora sequor! [...]»</quote>; Fantoni, II, <emph>Ode</emph> XXII, 48: 
+                  <quote source="#Fantoni_Poesie" ana="II, Ode XXII, v.48">«far plauso al male, ed appigliarsi al peggio</quote>»; Pindemonte, II, <emph>I Viaggi</emph>, 957: 
+                  <quote source="#Pindemonte_Poesie">«quando sete del meglio al peggio guida»</quote>. 
+                  <ref rend="bold">14. e...morte</ref>: vedi Foscolo, <emph>In morte del padre</emph>, sonetto
+                  <emph>Fu tutto pianto: e con un grido acuto</emph>, 14: 
+                  <quote source="#Foscolo_pianto" ana="v.14">«[...] e ad invocar la morte»</quote> 
+                  (<emph>Edizione Nazionale</emph>, II, p. 301); <emph>Le Rimembranze</emph>, 58: 
+                  <quote source="#Foscolo_rimembranze" ana="v.58">«Deh! a che non venne, e l’invocai la morte?»</quote> 
+                  <bibl corresp="#Foscolo_Casini">(Casini)</bibl>.
+               </note>
+            </noteGrp>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commenti alle poesie foscoliane, per un'edizione digitale</title>         
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="UF">Ugo Foscolo</author>
+               <title>Poesie e prose scelte</title>
+               <editor xml:id="FB">Francesco Biondolillo</editor>
+               <publisher>A. Mondadori</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>1927</date>
+            </bibl>
+         </sourceDesc>
+         <sourceDesc>
+            <listBibl>
+               <bibl>...</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="metro">
+            <note target="#S2">
+               Sonetto. Schema: ABAB, ABAB; CDC, DCD.
+            </note>
+         </div>
+         <div type="intro">
+            <note target="#S2">
+               Fu composto, forse, tra i 
+               <date notBefore="1799-01" notAfter="1801-01" type="composizione">primi mesi del 1799 e il gennaio del 1801</date>
+               , cioè, come crede il Chiarini, 
+            <quote source="#Foscolo_Chiarini">
+               «al tempo dell’amore del poeta per <persName corresp="#IR">Isabella Roncioni</persName>»
+            </quote>, 
+               e durante il periodo più movimentato della sua vita militare. Fu pubblicato nel 
+               <date when="1802" type="pubblicazione">1802</date>
+               .
+            </note>
+         </div>
+         <div type="commento">
+            <noteGrp target="#S2">
+                <note target="#S2V1" targetEnd="#S2V4">
+                   <ref rend="bold">1-4</ref>. Questa prima quartina è rotta in tanti brevi periodi, lenti e angosciosi. I primi due versi traducono il seguente distico di un’elegia 
+                   di Massimiano, poeta della decadenza: 
+                   <quote source="#Massimiano_Elegie">
+                      <foreign xml:lang="lat">
+                         Non sum qui fueram; periit pars maxima nostri<lb/>
+                         Hoc Quoque quod superest languor et horror habet<lb/>
+                      </foreign>
+                   </quote>:
+                   «Non sono chi ero stato, perì di noi la maggior parte, e anche ciò che avanza tiene il languore e l’orrore»; ma riecheggiano altresì le seguenti parole scritte alla 
+                   <persName corresp="#AFA">
+                      Fagnani-Arese
+                   </persName>: 
+                   <quote source="#Foscolo_Epistolario">
+                      «Mi sento mancare una parte della vita, e questa che m’avanza mi pare che sia circondata dal languore e dalla tristezza della morte»
+                   </quote>, 
+                   e queste altre che s’incontran nella lettera del 25 maggio dell’Ortis: 
+                   <quote source="#Foscolo_Ortis">
+                      «Ben tu, mio Dio, tu che creasti il mio cuore, sai che sonno spaventevole è questo ch’io dormo: sai che non altro 
+                     m’avanza fuorché il pianto e la morte!»
+                   </quote>. — 
+                   <ref rend="bold">Fui</ref>: detto come di cosa che si tema non possa ritornar più. — 
+                   <ref rend="bold">Di noi</ref>: di me. È certamente il plurale <emph>maiestatis</emph>, ma è 
+                   pur vero che qui vuole il poeta riferirsi alla gioventù italiana che, come lui, risentiva della licenza della rivoluzione e delle sanguinose guerre. — 
+                   <emph>Gran parte</emph> è la purezza giovanile dell’animo nell’amore («il mirto») e nel desiderio della gloria («lauro»).
+                   — Si noti l’accento nella sesta sillaba di <emph>perì</emph>, ch'è come un grido angoscioso.- 
+                   <ref rend="bold">Secco</ref>: è più forte di «arido» o di altro consimile aggettivo. — 
+                   <ref rend="bold">Il mirto</ref>: pianta sacra a Venere, simbolo dell’amore. — 
+                   <ref rend="bold">Sparte</ref>: disperse: in senso di abbandono e di dispregio. — 
+                   <ref rend="bold">Lauro</ref>: simbolo della gloria poetica, essendo una pianta sacra ad Apollo, cioè alla poesia. — In altri termini, il poeta si duole di aver 
+                   perduto la purezza e la nobiltà dei sentimenti giovanili, e la speranza nella gloria di poeta: poiché — come dice nella quartina seguente — ora il suo cuore è 
+                   corrotto e ad altra gloria non aspira che a quella di essere un combattente sanguinario e feroce.
+                </note>
+                <note target="#S2V5">
+                  <ref rend="bold">5. Empia licenza</ref>: quella della rivoluzione, importata dai Francesi. Cfr. l’
+                   <bibl corresp="#Foscolo_Lione">
+                      Orazione pei Comizi di Lione
+                   </bibl> — 
+                  <ref rend="bold">Marte</ref>: la guerra. — Nella lettera dedicatoria che accompagna l'<emph>Oda a Bonaparte liberatore</emph> 
+                   (Genova, 5 agghiacciatore, anno VIII (1790) il F. scriveva: 
+                  <quote source="#Foscolo_Bonaparte">
+                     «Vero è che, più che della tua lontananza, la nostra rovina è colpa degli uomini guasti dall’antico servaggio e dalla nuova licenza»
+                  </quote>.
+                </note>
+                <note target="#S2V6">
+                   <ref rend="bold">6. Del lor sanguineo manto</ref>: della divisa militare, il cui onore si fa consistere nelle sanguinose stragi.
+                </note>
+                <note target="#S2V7">
+                   <ref rend="bold">7. Cieca è la mente</ref>: perché non sa più discernere ciò eh’è bene da ciò eh’è male. — 
+                   <ref rend="bold">Guasto</ref>: corrotto. Il F. passava da un amore sensuale all'altro, e aveva perduto la nobiltà dei sentimenti d’una volta. — 
+                   <ref rend="bold">Arte ecc.</ref>: l’umana strage non è più prodotta da spontaneo ed eroico slancio ma da bene meditata abilità.
+                </note>
+                <note target="#S2V8">
+                   <ref rend="bold">8. Arte</ref>: ripete, in segno di stupore. — 
+                   <ref rend="bold">Vanto</ref>: si vantava, cioè, di questa sua scienza dell’uccidere.
+                </note>
+                <note target="#S2V9">
+                   <ref rend="bold">9. Consiglio</ref>: deliberazione: alla latina.
+                </note>
+                <note target="#S2V10" targetEnd="#S2V11">
+                  <ref rend="bold">10-11. Fiera</ref>: perché la «ragion» consiglia il suicidio. — 
+                  <ref rend="bold">Chiudon le Porte</ref>: si oppongono. — 
+                  <ref rend="bold">Furor</ref>: desiderio violento e inestinguibile. — Cfr. La lettera del F. all’<persName corresp="#SB">abate Saverio Bettinelli</persName>, 
+                   del 24 agosto 1802: 
+                  <quote source="#Foscolo_Epistolario">
+                     «Senza patria, senza amico del cuore, con tutte le alte passioni soffocate, noiato del mondo, adirato dalla paurosa e fatale perfidia degli uomini, 
+                     io non vedrei più lo scosceso sentiero della vita, 
+                     <emph>se non mi fosse illuminato dal fantasma di gloriach’io sieguo</emph>
+                     , e che forse non potrò raggiungere 
+                     mai».
+                  </quote>
+                </note>
+                <note target="#S2V12">
+                   <ref rend="bold">12. Tal</ref>: cosi. — 
+                   <ref rend="bold">Di me</ref>: di sé, che il desiderio della gloria trattiene dal suicidio. — 
+                   <ref rend="bold">D’altri</ref>: delle donne, che egli ama con cuor corrotto. — 
+                   <ref rend="bold">Della sorte</ref>: del destino che vuole ch’egli segua la profession delle armi.
+                </note>
+                <note target="#S2V13">
+                   <ref rend="bold">13. Il meglio</ref>: cioè il suicidio. — 
+                   <ref rend="bold">Peggior</ref>: la vita schiava delle passioni, d’altri, ecc. — Più tardi, nel nov. del 1811, in una lettera al conte 
+                   <persName corresp="#GBG">G. B. Giovio</persName> 
+                   scriveva: 
+                  <quote source="#Foscolo_Epistolario"> 
+                     «Il detto di Medea: 
+                     <foreign xml:lang="lat">
+                        Video meliora proboque, deteriora sequor
+                     </foreign>, è profondamente sviscerato da Giovanni Loke nel suo 
+                     <bibl corresp="#Locke_Intendimento">«Trattato dell’Intendimento»</bibl>. 
+                     Non mi ricordo del luogo; ma so ch’egli ne parla a lungo, e prova che gli uomini sono perpetuamente e necessariamente mossi dalla più forte sensazione; e che si 
+                     opera il male presente ad onta delle ragioni poste innanzi dalla esperienza del passato, e dalle previdenze del futuro, pel solo motivo che le cose presenti fanno 
+                     più forza all’animo nostro»
+                  </quote> (<emph>Epist</emph>., 1, p. 398).
+                </note>
+                <note target="#S2V14">
+                   <ref rend="bold">14.</ref> Verso pieno di sarcasmo verso sé stesso.
+                </note>
+            </noteGrp>
+         </div>
+         <div type="conclusione">
+            <note target="#S2">
+               Si sente che il poeta esagera la corruzione del suo animo di amante e di soldato per aver modo di esaltare il suo bisogno di reagirvi, e di mettere, quindi, 
+               in evidenza il fondo nobilissimo del suo temperamento. Ch’egli discorra con sé stesso senza avvertire la presenza, come sul palcoscenico, d’un pubblico che veda 
+               ed ascolti, non si può ammettere, tanto esagerato è il tono drammatico di questo sonetto, e specialmente dei vv. 5-6. Siamo ben lungi dal tono grave e raccolto del 
+               sonetto precedente. La stessa brevità angosciosa dei primi versi ha alcunché di studiato: di alfieriano, quasi. E reboante, alla 
+               <persName corresp="#VM">Monti</persName>,
+               è il verso: «Vestivan me del loro sanguineo manto». La parte più bella è la prima terzina, dove è fatto intravedere l’effettivo dramma dell’animo del F., il quale reagisce,
+               come al solito, al pensiero della morte cercando di realizzare i suoi sogni di gloria, con la quale la vita è continuata, anche dopo morte, e quasi eternata. Per questo 
+               lato, il sonetto si riallaccia dunque alle odi e al sonetto precedenti, e, al par di essi, ci prepara al motivo fondamentale dei 
+               <bibl corresp="#Foscolo_Sepolcri">Sepolcri</bibl>.
+            </note>
+         </div>
+      </body>
+  </text>
+</TEI>

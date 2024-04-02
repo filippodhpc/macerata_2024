@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commenti alle poesie foscoliane, per un'edizione digitale</title>         
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="UF">Ugo Foscolo</author>
+               <title>Poesie</title>
+               <editor xml:id="LR">Luigi Russo</editor>
+               <publisher>Sansoni</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1941</date>
+            </bibl>
+         </sourceDesc>
+         <sourceDesc>
+            <listBibl>
+               <bibl>...</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="intro">
+            <note target="#S2">
+               Questo sonetto fu pubblicato la prima volta nel 
+               <date when="1802" type="pubblicazione">1802</date>, ispirato dall'amore per <persName corresp="#IR">Isabella Roncioni</persName> 
+               (quindi si suppone che sia stato composto tra i 
+               <date notBefore="1799-01" notAfter="1801-01" type="composizione">primi mesi del 1799 e il gennaio del 1801</date>; altri pensa al '97). 
+               Il suo motivo centrale è l'intolleranza dei disordini rivoluzionari (<emph>l'empia licenza</emph>) e della guerra (<emph>Marte</emph>), 
+               per i quali <emph>cieca è la mente e guasto il core</emph>, e non si distingue più il bene dal male. E l’amore per la <persName corresp="#IR">Roncioni</persName> 
+               è solo adombrato nei primi due versi, e in quel è <emph>secco il mirto</emph> si potrebbe leggere un’allusione al presentito 
+               tramonto di quel suo amore. Però il sonetto andrebbe ritirato alla fine dell’800. È un sonetto prevalentemente 
+               psicologico, più che lirico, dove è colto un disagio, una crisi di sentimento, un trapasso di passioni.
+            </note>
+         </div>
+         <div type="commento">
+            <note target="#S2"> 
+               <noteGrp target="#S2">
+                  <note target="#S2V1" targetEnd="#S2V2">
+                     <ref rend="bold">1-2. Non son chi fui</ref>: traduzione di un passo delle elegie di Massimiano, I: 
+                      <quote source="#Massimiano_Elegie">
+                         «Non sum qui fueram: periit pars maxima nostri;<lb/> 
+                         Hoc quoque quod superest languor et horror habet»<lb/>
+                      </quote>. 
+                      Espressioni simili, il F. adopera anche in una lettera contemporanea alla 
+                      <persName corresp="#AF">Fagnani</persName>: 
+                      <quote source="#Foscolo_Epistolario">
+                         «Io non esagero, Antonietta, e quale interesse ho di esagerare più? io ti perdo! 
+                        <emph>Mi sento mancare una parte della vita, e, questo che mi avanza, mi pare che sia circondato 
+                        dal languore e dalla tristezza della morte</emph>».
+                      </quote> (<emph>Lett. amorose</emph>, p. 159). E nel <emph>Jacopo Ortis</emph> scrive: 
+                      <quote source="#Foscolo_Ortis">
+                         «Sai che non altro m’avanza fuorché il pianto e la morte»
+                      </quote> 
+                      (25 maggio). Si cita anche una battuta di una lettera in latino (a un dotto di Weimar) dove si 
+                      parla dell'Ortis: 
+                     <quote source="#Foscolo_Weimar">
+                        «Non sum qui fui, actum est de juventute; sed monumenta juventutis meae in hoc libro moestissimo invenio, et in eo me oblecto»
+                     </quote> 
+                      (<emph>Op</emph>., XI, 403). Valgano queste citazioni a mostrare l’unità ma anche il ricalco di un frasario proprio 
+                      anche a un grande ingegno, quando esso si è ritrovato una volta in una espressione felice.
+                  </note>
+                  <note target="#S2V3">
+                     <ref rend="bold">3. il mirto:</ref> pianta sacra a Venere, che simboleggia l’amore, 
+                     mentre il lauro simboleggia la gloria poetica. Erano espressioni correnti nella 
+                     letteratura del tempo. Il Monti nel <emph>Congresso di Udine</emph>, parlando della repubblica cisalpina, 
+                     dice: 
+                     <quote source="#Monti_Udine">
+                        E il ferro trae, gittando la vagina. Desiosa di lauro e non di mirto.
+                     </quote> 
+                     Il lauro montiano non è quello poetico, s’intende, ma il guerriero. Il <emph>mirto</emph> torna frequentemente 
+                     nella poesia foscoliana; il simbolo oggi è caduto in disuso, mentre è sempre vivo quello dei <emph>lauri</emph> o 
+                     del <emph>lauro</emph>: 
+                     <quote source="#DAnnunzio_Oltremare" ana="v.1">
+                        I miei lauri gettai sotto a’ tuoi piedi
+                     </quote> 
+                     (D’Annunzio, <emph>La Canzone d’oltremare</emph>, v. 1).
+                  </note>
+                  <note target="#S2V5">
+                     <ref rend="bold"> 5. empia licenza e Marte.</ref> L’irriguardosa rivoluzione, sovvertitrice della tradizione, 
+                      e la guerra. Il Foscolo è stato ufficiale combattente a Cento e a Forte Urbano (contro gl'insorti) 
+                      nella primavera del ’99, e contro gli Austro-Russi, invasori della Cisalpina, alla Trebbia il 19 giugno, e a 
+                      Novi il 15 agosto. Quando i Cisalpini si ridussero in Genova, il Foscolo rimase nella città assediata, 
+                      e si distinse nella presa del forte dei Due Fratelli. Nella sortita del 1 maggio 1800, egli rimase ferito, 
+                      e accanto a lui cadde il generale <persName corresp="#GF">Giuseppe Fantuzzi</persName>. Egli indirizzando una lettera <emph>Al Consiglio legislativo 
+                      della Repubblica italiana</emph>, il 1 luglio 1802, rivendicava la cittadinanza italiana, fra l’altro 
+                     <quote source="#Foscolo_Epistolario">
+                        «per avere animosamente combattuto ne’ più difficili tempi per quasi due anni in favore della Repubblica, riportando 
+                         prigionia, attestati e ferite; e segnatamente a Genova, dove, anche per opra mia, fu ripreso il forte de’ 
+                         Due Fratelli, prima della discesa di <persName corresp="#NB">Bonaparte</persName>, e così protratto l’assedio di Genova, e salvata l'Italia»
+                     </quote>. 
+                     E in una lettera al Ministro della Guerra della Cisalpina del 24 luglio 1801 (5 termidoro, a. IX) aveva scritto: 
+                     <quote source="#Foscolo_Epsitolario">
+                        «Ho militato non per ambizione né per interesse, ma per la salute della Repubblica. Ho combattuto a Cento, a Forte Urbano, alla 
+                      Trebbia, a Novi, a Genova e in Toscana, riportando prigionia, attestati e ferite».
+                     </quote>
+                     In Toscana il Foscolo combatté nel 1800, sotto il generale Pino.
+                  </note>
+                  <note target="#S2V6"><ref rend="bold">6. vestivan me del lor sanguineo manto:</ref> 
+                     mi abituarono ai modi e alle scene sanguinose.
+                  </note>
+                  <note target="#S2V7">
+                     <ref rend="bold">7. cieca è la mente e guasto il core</ref>: 
+                     è significato bene il pervertimento che genera sempre la guerra, anche se combattuta 
+                     per generosi ideali. Si perde il discernimento del bene e del male (<emph>cieca è la mente</emph>),
+                     e i sentimenti s’induriscono e inchinano alle risoluzioni sbrigative e feroci (<emph>e guasto il core</emph>).
+                  </note>
+                  <note target="#S2V8">
+                     <ref rend="bold">8. l’umana strage, arte è in me fatta</ref>. Espressioni simili torneranno nell’<emph>Adelchi</emph> manzoniano, ma 
+                     fortemente accentate di un raccapriccio religioso per gli orrori della guerra. 
+                     Cosi parla <emph>Adelchi</emph>: 
+                     <quote source="#Manzoni_Adelchi" ana="III, vv. 64-74">
+                        <lg>
+                           <l>Anfrido, Qual guerra! e qual nemico!</l>
+                           <l>Ancor ruine Sopra ruine ammucchierem: l’antica</l>
+                           <l>Nostr’arte è questa: ne’ palagi il foco</l>
+                           <l>Porremo e ne’ tuguri; uccisi i primi,</l> 
+                           <l>I signori del suolo, e quanti a caso</l> 
+                           <l>Nell’asce nostre ad inciampar verranno,</l> 
+                           <l>Fia servo il resto, e tra di noi diviso;</l> 
+                           <l>E ai più sleali e più temuti, il meglio</l> 
+                           <l>Toccherà della preda</l>
+                        </lg>
+                     </quote> 
+                     (<emph>Atto terzo</emph>, 65-74).
+                  </note>
+                  <note target="#S2V9">
+                     <ref rend="bold">9. di morir consiglio</ref>: l’idea del suicidio fu familiare alla fantasia 
+                     del Foscolo. Due suoi fratelli furono suicidi 
+                     (cfr. il sonetto <bibl corresp="#Foscolo_Un">In morte del fratello Giovanni</bibl>), e suicida 
+                     finisce <bibl corresp="#Foscolo_Ortis">Jacopo Ortis</bibl>. Direi che il suicidio era conseguenza 
+                     di una filosofia: l’indirizzo alfieriano, promotore di un’idea della libertà, una libertà 
+                     scontrosa, vergine, immacolata, necessariamente, nei suoi estremi corollari, portava a questo 
+                     «di morir consiglio» per rifiuto di contaminazione storica con la realtà. I 
+                     <bibl corresp="#Foscolo_Sepolcri">Sepolcri</bibl> rappresentano la guarigione poetica di questa 
+                     filosofia del «nulla eterno», di quella filosofia del <emph>Non</emph>, che, nell’impossibilità 
+                     di accordarsi con la vita quotidiana, preferiva annullare se stessa nella morte del corpo. 
+                     Così il suicidio, idoleggiato dal Foscolo, non ha nulla della debolezza femminile del più tardo 
+                     romanticismo; è un suicidio eroico, agonistico, di sublime rinuncia. Intendi a questo modo l’idea 
+                     del suicidio in F., che in lui fu costante: 
+                     <quote source="#Foscolo_Epistolario">
+                        «E s’io non avessi un fratello, che devo educare, e 
+                        una madre.... la più cara, la più tenera, la più benefica delle donne e forse la più sventurata..... 
+                        oh quante volte io me ne sarei andato»
+                     </quote> (<emph>Lett. amorose</emph>, p. 250); 
+                     <quote source="#Foscolo_Epsitolario">
+                        «Oh quante volte mi si è affacciata la risoluzione di troncare i miei tormenti e 
+                        la mia vita! Ho una madre tenera ed infelice!»
+                     </quote> (<emph>ivi</emph>, p. 155).
+                  </note>
+                   <note target="#S2V10"> 
+                      <ref rend="bold">10. a mia fiera ragion</ref>: fiera nel significato di estrema, radicale, feroce.
+                   </note>
+                   <note target="#S2V11">
+                      <ref rend="bold">11. furor di glori</ref>a: è l’accento alfieriano del Foscolo. Più tardi nel 1815, il F. doveva 
+                      distinguere tra il <emph>furore</emph> alfieriano e la sua <emph>malinconia</emph>. 
+                      <quote source="#Foscolo_Epistolario">
+                         «Diceva l’<persName corresp="#VA">Alfieri</persName>: <emph>furori di Bibbia</emph>, e diceva bene; io invece dico: 
+                         <emph>malinconie di Bibbia</emph>, e non mi pare di dir male: il 
+                         furore di quel libro divino era poetico per l’<persName corresp="#VA">Alfieri</persName>; per me la malinconia è morale e 
+                         salutarissima»
+                      </quote> 
+                      (<emph>lett. alla Donna gentil</emph>e, 6 dic. 1815, <emph>Opere</emph>, VII, III). 
+                      Di <emph>furore di gloria</emph> parla nella lettera del 4 dicembre dell’<emph>Ortis</emph>, in cui è introdotto il 
+                      Parini a dire: - 
+                      <quote source="#Foscolo_Ortis">
+                         «Forse questo tuo <emph>furore di gloria</emph> potrebbe trarti a difficili imprese»
+                      </quote>. 
+                      E anche in quella stessa lettera parla dei suoi propositi di suicidio: 
+                      <quote source="#Foscolo_Ortis">
+                         «Né avrei forse sopravvissuto alla mia patria, se non mi avesse trattenuto il folle timore, che la pietra 
+                         posta sopra il mio cadavere non seppellisse ad un tempo il mio nome»
+                      </quote>. 
+                      La parola <emph>furore</emph> fu diletta alla fantasia giovanile del Foscolo, e la incontri spesso 
+                      nell’<emph>Ortis</emph>. 
+                      <quote source="#Foscolo_Ortis">
+                         «Io mi sento rinsanguinare più sempre nell’anima questo <emph>furore di patria.</emph>»
+                      </quote> 
+                      (17 marzo). — 
+                     <ref rend="bold"> carità di figlio</ref>: amore pietoso verso la madre. Oltre le citaz. riferite alla n. 9, si tenga presente un 
+                        passo di una lettera al <persName corresp="#ST">Trechi</persName>: 
+                      <quote source="#Foscolo_Epistolario">
+                         «Se non perdessi il tempo scrivendo e leggendo, non saprei più 
+                         a che rimanere su la terra, se non se a risparmiare il lutto di chi sarebbe inconsolabile sul
+                         mio sepolcro, e _sarebbe mia madre sola_» 
+                      </quote>
+                      (<emph>Lettere inedite di U. F. a S. Trechi</emph>, Parigi, 1875, p. 36). 
+                      Dell’amore del F. per la madre è testimonianza un periodo di una sua lettera de’ 14, 15 novembre: 
+                      <quote source="#Foscolo_Epistolario">
+                         «Se alcuna dote io posseggo che meriti lode, è tutta opera e dono di mia madre»
+                      </quote> 
+                      (<emph>Opere</emph>, VII, p. 86).
+                   </note>
+                    <note target="#S2V13"><ref rend="bold">13. conosco il meglio cd al peggior m’appiglio</ref>. 
+                       È ripreso da Ovidio, attraverso Petrarca 
+                       (Canz. <emph>I' vo pensando</emph>): <quote source="#Petrarca_Rime">E veggio il meglio ed al peggior m’appiglio</quote>.
+                       E Ovidio aveva detto: 
+                       <quote source="#Ovidio_Metamorfosi" ana="VII, v. 21">
+                          <foreign xml:lang="lat">Video meliora proboque, deteriora sequor</foreign>
+                       </quote> (<emph>Metam</emph>., VII, 21). Pure il 
+                       verso foscoliano è riempito di una contraddizione romantica che era soltanto germinale in 
+                       Petrarca, e con riferimento a un dissidio trascendente, fra il Cielo e le passioni umane. In 
+                       Foscolo, il dissidio è calato tutto su questa terra.
+                    </note>
+                     <note target="#S2V14">
+                        <ref rend="bold">14. e so invocare ecc.</ref> Anche questa è espressione consueta nel Foscolo. 
+                        <quote source="#Foscolo_Ortis">
+                           «Deh! a che non venne la morte? e l’ho invocata»
+                        </quote>. 
+                        (<emph>Ortis</emph>, lett. 14 maggio). E in un carme giovanile (<emph>Poesie</emph>, I, 71): 
+                        <quote source="#Foscolo_Padre" ana="v.71">
+                           «Deh! a che non venne, e l’invocai, la morte?»
+                        </quote>. 
+                        La ripetizione di un frasario è segno di fiacchezza nell’ispirazione poetica, e dell’irrigidimento di 
+                        una maniera espressiva.
+                     </note>
+               </noteGrp>
+            </note>
+         </div>
+      </body>
+  </text>
+</TEI>

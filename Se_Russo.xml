@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commenti alle poesie foscoliane, per un'edizione digitale</title>         
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="UF">Ugo Foscolo</author>
+               <title>Poesie</title>
+               <editor xml:id="LR">Luigi Russo</editor>
+               <publisher>Sansoni</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1941</date>
+            </bibl>
+         </sourceDesc>
+         <sourceDesc>
+            <listBibl>
+               <bibl>...</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="intro">
+            <note target="#Se">
+               I <emph>Sepolcri</emph> furono composti nel <date when="1806" type="composizione">1806</date>, quando il Foscolo
+               aveva 28 anni; l’occasione esterna si dice che sarebbe stata data dall’editto napoleonico di Saint-Cloud del 12 giugno 1804, e il quale poi fu esteso all' Italia il 
+               5 settembre 1806. Ma c’è tutta una legislazione precedente, che già poteva dare
+               lo spunto al poeta. Comunque sia, tale editto imponeva che i cadaveri fossero sepolti soltanto nei cimiteri, e non ci fosse distinzione tra morti oscuri e morti 
+               illustri. Il Foscolo in una lettera a <persName corresp="#AG">monsieur Guillon</persName> cosi protestava: 
+               <quote source="#Foscolo_Guillon">
+                  «I monumenti inutili ai morti giovano ai vivi perché destano affetti virtuosi lasciati in eredità dalle persone dabbene; solo i malvagi che si sentono immeritevoli 
+                  di memoria, non la curano; a torto dunque la legge accomuna le sepolture de’ tristi e dei buoni, degli illustri e degli infami»
+               </quote>. Questo è uno dei motivi dominanti del carme; ma, si badi, si tratta di un motivo della superficie. Il mito caro al Foscolo, e che egli ricerca e celebra nella 
+               sua poesia, è il mito della immortalità, della sopravvivenza delle memorie umane: si vuole reagire al gelido ateismo del secolo XVIII. Reagisce 
+               <persName corresp="#VA">Alfieri</persName> e reagisce Foscolo, predicando la necessità delle illusioni. Il Foscolo poi arriva ad un concetto originale dell’immortalità: 
+               l’immortalità attraverso la poesia. Le tombe, è vero, sono distrutte dal tempo, ma alle tombe si ispirano i poeti, e la voce delle Muse vince di mille secoli il 
+               silenzio. C’è solo da osservare che l’immortalità, che sta al cuore del Foscolo, è quella dei grandi; i suoi sepolcri sono soltanto il pantheon di uomini illustri. 
+               Storicamente, per questo punto, egli procede dall’<persName corresp="#VA">Alfieri</persName>, per il quale non esiste che il letterato, il superuomo, l’uomo di magnanimi 
+               sensi, l’eroe, e in questo il Foscolo rimane ancora alfieriano: non c’è in lui il senso cristiano dell'oltretomba e della immortalità, ma un senso ancora estetico. 
+               È una nuova religione mondana che egli celebra di fronte alla vecchia e per lui consunta mitologia cattolica, la quale avrebbe smarrito il senso divino e individuale 
+               della immortalità cristiana delle anime per accontentarsi di una piatta e uniforme visione democratica ed egalitaria della sorte amorfa di tutte le anime. 
+               Anche il giacobinismo di <persName corresp="#NB">Napoleone</persName>, sotto forme laiche, non farebbe che continuare tale piatto egalitarismo; la necessità quindi di 
+               ristabilire un’aristocrazia dei grandi morti, dei grandi immortali. Non più l'immortalità dispensata gratuitamente <emph>ab aeterno</emph> a tutti, 
+               ma l’immortalità conseguita per egregie imprese. Però il carme del Foscolo, che è stato interpretato quasi sempre come un carme civile, esaltando le urne dei forti, 
+               è innanzi tutto un carme religioso: il carme religioso della nuova immortalità umana.
+               Nel cielo della poesia, è eternata la bellezza caduca delle donne e la sua amica risanata avrà per i canti del poeta i voti delle insubri nipoti; e nel cielo della 
+               poesia è eternata la gloria che passò di tutti gli eroi dell’antÌchità e dell’evo moderno. Un nuovo paradiso si dischiude dunque agli uomini; il paradiso della poesia, 
+               il paradiso della parola immortalatrice, del vocale Elicona. Religione ancora estetica questa del Foscolo, senza dubbio, ma religione, e nuova e sentita religione.
+            </note>
+         </div>
+         <div type="commento">
+            <noteGrp target="#Se">
+               <note target="#Se1">
+                  <ref rend="bold">1. All’ombra del cipressi</ref>: senza fare dell’insistente estetismo sulle sillabe e sulle consonanti, puoi osservare che il ritmo grave 
+                  della poesia foscoliana si giova istintivamente di una certa asperità di sillabe e di consonanti. Se non si fosse fraintesi, si vorrebbe dire che la erre campeggia 
+                  come momento tematico nella musica foscoliana, come le liquide campeggiano in quella leopardiana. Ricorda il verso: 
+                  <quote source="#Foscolo_Non">
+                     Quello spirto guerrier che entro mi rugge
+                  </quote>, e ora l’inizio di questi primi tre versi, dove la frequenza delle 
+                  <emph>erre</emph> ti costringe a una lettura grave e sorda. Si tratta, s’intende, del tema iniziale la cui musica si svolge in ampie volute, e si 
+                  arricchisce perciò di sempre nuovi motivi. Puoi già osservare che da «ove più il sole» il ritmo muta e dalla voce grave e sorda si sale a un accento di poesia più 
+                  spaziosa e dolce e più areata. — 
+                  <ref rend="bold">L’urne</ref>: sono le urne cinerarie che poi, per sinneddoche, passano a significare i sepolcri stessi.
+               </note>
+               <note target="#Se2">
+                  <ref>2. confortate</ref>: le ceneri sono confortate, non le urne, a quello stesso modo che è detto 
+                  <quote source="#Foscolo_Amica" ana="v.8">
+                     egro
+                  </quote> il
+                  <quote source="#Foscolo_Amica" ana="v.8">
+                     talamo
+                  </quote> (<emph>All'amica risanata</emph>, 8) per la donna che vi giace. Questa delle <emph>urne confortate di pianto</emph> non è certo una nota pessimistica; 
+                  i <emph>Sepolcri</emph> si aprono con l'accento della fede, e non già con una negazione scettica, che poi sarebbe distrutta o temperata dalla dialettica degli 
+                  argomenti successivi: ciò che aveva frastornato i sostenitori del tono oratorio e della struttura logica del carme, che non partivano dal testo ma dalla 
+                  ricostruzione critica del De Sanctis. 
+                  <quote source="#Ignoto_Foscolo">
+                     «Fin dall’inizio il lettore dei <emph>Sepolcri</emph> ha davanti a se non una nuda pietra, ma un’urna intorno a cui piangono i viventi e sente in quel pianto, 
+                     se non un reale conforto, la possibilità di un conforto.»
+                  </quote>. Così uno studioso, autore di un bel saggio critico su Ugo Foscolo, (Firenze, Nuova Italia), pp. 246-47. 
+                  Cfr. la prima nota con asterisco dell'<bibl corresp="#Foscolo_Ortis">Ortis</bibl>.
+               </note>
+               <note>
+                  <ref rend="bold">3. duro</ref>: aggettivo che sentirebbe di Virgilio e di Tasso: 
+                  <quote source="#Virgilio_Eneide" ana="X, v.745">
+                     <foreign xml:lang="lat">
+                        Olli dura quies urget et ferreus somnus<lb/> 
+                     </foreign>
+                  </quote>(<emph>Aen</emph>., X, 745); 
+                  <quote source="Tasso_Gerusalemme" ana="III, vv.358-60">
+                     <l>Cade; e gli occhi ch'a pena aprir si panno,</l> 
+                     <l>Dura quiete preme e ferreo sonno</l>
+                  </quote> (<emph>Gerusal. Liber.</emph>, III, 358-60). 
+                  Però in Foscolo il <emph>men duro</emph> ha un significato diverso non già di <emph>meno pesante</emph>, <emph>meno profondo</emph>, 
+                  ma di <emph>più sollevato</emph>, <emph>meno desolato</emph>.
+               </note>
+               <note target="#Se4">
+                  <ref rend="bold">4. per me </ref> non ha valore logico e discorsivo, o complemento di commodo 
+                  (<emph>quanto a me</emph>), ma profondamente sentimentale e lirico: per me che sono sensibile a questo perpetuo rinnovarsi 
+                  del mondo 
+               </note>
+               <note target="#Se5">
+                  <ref rend="bold">5. Bella d'erbe famiglia e d’animali</ref>: 
+                  è espressione cara a Foscolo per indicare il mondo vegetale ed animale. 
+                  <quote source="#Foscolo_Ortis">
+                     «Io salutava a ogni passo la famiglia de’ fiori e dell’erbe che a poco a poco alzavano il capo chinato dalla brina»
+                  </quote>. (<emph>Ortis</emph>, 20 novembre).
+               </note>
+            </noteGrp>
+         </div>
+      </body>
+  </text>
+</TEI>

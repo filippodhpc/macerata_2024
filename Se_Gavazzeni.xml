@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commenti alle poesie foscoliane, per un'edizione digitale</title>         
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <!-- Primo sourceDesc entro cui codifico l'edizione del commento -->
+         <sourceDesc>
+            <bibl>
+               <author xml:id="UF">Ugo Foscolo</author>
+               <title>Ugo Foscolo, Opere</title>
+               <editor xml:id="FG">Franco Gavazzeni</editor>
+               <biblScope unit="volume">I</biblScope>
+               <publisher>Riccardo Ricciardi</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>1974</date>
+            </bibl>
+         </sourceDesc>
+         <!-- Secondo sourceDesc entro cui codifico le opere citate dai commentatori in relazione alle poesie di Foscolo-->
+         <sourceDesc>
+            <listBibl>
+               <bibl>...</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="intro">
+            <note target="#Se">
+               In lettera ad <persName corresp="#ITA">Isabella Teotochi Albrizzi</persName>, da Milano 6 settembre 1806,
+               il Foscolo scriveva: 
+               <quote source="#Foscolo_Epistolario">
+                   «ritornato [dall’escursione in Valtellina e nel Bergamasco],
+                   stava sulle mosse per il Terraglio; io aveva già una <emph>Epistola
+                   sui sepolcri da stamparsi</emph> lindamente - non bella forse; non elegante,
+                   ma ch’io vi avrei certamente recitata con tutto l’ardore dell’anima
+                   mia, e che voi, donna gentile, avreste ascoltata forse lagrimando.
+                   Io la intitolo al <persName corresp="#IP">Cavaliere</persName> [il Pindemonte] ricordandomi de’ suoi
+                   lamenti e de’ vostri; e per fare ammenda del mio sdegno un po’ troppo
+                   politico»
+               </quote>
+               (<emph>Epistolario</emph>, II, pp. 142-3). Al <persName corresp="#IP">Pindemonte</persName> tuttavia la
+               notizia dell’impresa foscoliana riusciva nuova ancora all’altezza del
+               6 novembre 1806, se poteva rispondere all’<persName corresp="#ITA">Albrizzi</persName>: 
+               <quote source="#Epistolario_Pindemonte">
+                  «Ciò che mi dite di Un’Epistola di Foscolo a me diretta, e intitolata i <emph>Sepolcri</emph>, m’è
+                  affatto nuovo»
+               </quote> (vedi 
+               <bibl corresp="#Traversi_Foscolo" ana="p.210">
+                  C. ANTONA TRAVERSI, Studi e documenti sopra Ugo Foscolo, Bologna, Zanichelli, 1930, p. 210
+               </bibl>, 
+               dove è riprodotta la lettera del <persName corresp="#IP">Pindemonte</persName>). Il 19 novembre 1806 era poi lo stesso <persName corresp="#UF">poeta</persName>
+               che pregava <persName corresp="#MP">Mario Pieri</persName>: 
+               <quote source="#Foscolo_Epistolario">
+                  «Se scrivete al Cavaliere salutatelo in mio nome, e ditegli ch’io gli ho bella e preparata una <emph>Epistola sui Sepolcri</emph>
+                  lindamente stampata in <emph>carta velina</emph>, e con tutte le <emph>munditiae</emph> bodoniane»
+               </quote>
+               (<emph>Epistolario</emph>, II, p. 146). Così che il <persName corresp="#IP">Pindemonte</persName>, rispondendo
+               al <persName corresp="#MP">Pieri</persName>, il 9 dicembre 1806, lo invitava a significare al Foscolo la sua
+               impazienza di ricevere l'<emph>Epistola</emph> (vedi 
+               <bibl corresp="#Traversi_Foscolo">
+                  C. ANTONA TRAVERSI, op. cit., pp. 189-90
+               </bibl>, dove è riprodotta la lettera del Pindemonte), dando
+               però a vedere un interesse, oltre che inconsueto nel pacato <persName corresp="#IP">Cavaliere</persName>,
+               affatto comprensibile, ove si ricordi che lo stesso, sull’identico tema
+               del carme foscoliano, tra la fine maggio e l’inizio del luglio 1806,
+               aveva quasi condotto a termine un canto in ottave, primo di quattro
+               di cui doveva constare il poema <emph>I Cimiteri</emph> (su tutto ciò vedi la Prefazione
+               di <bibl corresp="#Traversi_Sepolcri">C. ANTONA TRAVERSI, pp. XVIII-IX, in Dei Sepolcri di UGO
+               FOSCOLO, con note di C. Antona Traversi e G. A. Martinetti, Torino,
+               Paravia, 1884</bibl>). Come è noto il <persName corresp="#UF">Foscolo</persName>, di ritorno da Venezia, fece
+               visita al <persName corresp="#IP">Pindemonte</persName> nei giorni 16-17 giugno 1806 (vedi la lettera ad
+               <persName corresp="#ITA">Isabella Teotochi Albrizzi</persName>, Verona 16-17 giugno 1806, in <emph>Epistolario</emph>,
+               II, p. 112), quando ancora quello non era in possesso della lettera
+               nella quale <persName corresp="#MC">Melchiorre Cesarotti</persName>, richiesto come d’abitudine
+               da <persName corresp="#IP">Ippolito</persName> di un giudizio circa il primo canto dei <emph>Cimiteri</emph>, e la tela
+               del poema, oltre a consigliare di ridurlo prima a tre, e successivamente
+               addirittura a due canti (
+               <quote source="#Traversi_Sepolcri">«Il primo è toccante, ma quelle ombre parlanti a voi svegliate, e non ancora penetrate abbastanza del
+               vostro soggetto, hanno troppo dell’inverisimile. Se vi parlassero in
+               sogno non ci sarebbe che dire. Ciò mi fa pensare che i tre canti
+               potrebbero ridursi a due: giacché non sarebbe punto strano che voi
+               sempre sognando passaste dai lamenti dell’ombre ai Mausolei d’Egitto
+               e ai funerali di Grecia»</quote>
+               ), anche obiettava: 
+               <quote source="#Travesi_Sepolcri">«Non so poi se l’ottava rima sia il metro meglio scelto per un tal argomento»</quote> (la
+               lettera del <persName corresp="#MC">Cesarotti</persName>, riprodotta da C. ANTONA TRAVERSI, <emph>Prefazione</emph>,
+               cit., p. XXI, pervenne al <persName corresp="#IP">Pindemonte</persName> dopo il 7 luglio 1806, e prima
+               del 14 dello stesso mese; su tutto ciò vedi i passi delle lettere del
+               <persName corresp="#IP">Pindemonte</persName> al <persName corresp="#MP">Pieri</persName>, 
+               riprodotti in C. ANTONA TRAVERSI, <emph>Prefazione</emph>, cit., p. XVIII). 
+            </note>
+         </div>
+         <div type="metro">
+            <note target="#Se">METRO: endecasillabi sciolti.</note>
+         </div>
+         <div>
+            <noteGrp target="#Se">
+               <note target="#Se1" targetEnd="#Se2">
+                  <ref rend="bolg">1-2. All’ombra...duro?</ref>: il sonno della morte è forse meno duro,
+                  infrangibile, e cioè più sopportabile all’ombra dei cipressi, che solitamente
+                  adornano i camposanti, e dentro tombe consolate dal pianto dei
+                  superstiti? Il concetto si ritrova in germe in Thomas Gray: vedi <emph>Elegia
+                  inglese del signor TOMMASO GRAY sopra un cimitero di campagna trasportata
+                  in verso italiano dall’A[bate] M[ELCHIORRE] C[ESAROTTI]</emph>, Padova, Cornino,
+                  1772, vv. 65-70: 
+                  <quote source="#Cesarotti_Elegia" ana="vv.65-70">
+                     «[...] Ah l’animato busto / o l’urna effigiata al primo albergo /
+                     può richiamar lo spirito fugace? / Può risvegliar la taciturna polve
+                     / voce d’onore? o adulatrice lode / il freddo orecchio lusingar di Morte?»
+                  </quote>
+                  (GRAY, <emph>Elegy written in a Country Church-Yard</emph>, 41-4: 
+                  <quote source="#Gray_Elegy">
+                     «Can storied um, or animated bust / back to its mansion call the fleeting breath ? / Can Honour’s
+                     voice provoke the silent dust? / or Flatt’ry sooth the dull cold ear of Death?»
+                  </quote>;
+                  si cita dall’originale posto a fronte della traduzione del Cesarotti). 
+                  <bibl corresp="#Zanella_Gray" >G. ZANELLA, Gray e Foscolo, in «Nuova Antologia», XXV, 1 febbraio 1881, p. 386</bibl>, ritenne
+                  che l’esordio del carme derivasse dal <emph>Canto notturno</emph> di Thomas Parnell:
+                  <quote source="#Parnell_Canto">
+                     «Dunque a che pro l’inanimata salma / vestir di bruno ammanto, e al non
+                     suo tetto / ombrar la porta di feral cipresso»
+                  </quote>.
+                  <ref rend="bold">1. cipressi</ref>: sacri a Plutone,
+                  ornano le case dei morti, e vedi i vv. 114-7; 
+                  <ref rend="bold">urne</ref>: tombe. Presso gli antichi,
+                  vaso di terra cotta, o d’altro materiale, contenente le ceneri del rogo funebre
+                  (urna cineraria), da collocarsi nella camera sepolcrale; il termine,
+                  per estensione, ebbe quindi corrente applicazione per designare i sepolcri
+                  in generale. Vedi <emph>In morte di Amaritte</emph>, I, a p. 39: 
+                  <quote source="#Foscolo_Amaritte">«Qui sorge un’urna, e qui in funereo manto»</quote>. 
+                  <ref rend="bold">2. confortate di pianto</ref>: consolate dal pianto dei superstiti. La metonimia riguarda urne per “tombe”, in quanto contenenti
+                  le ceneri dei defunti, alle quali è indirizzato il compianto. Il MARTINETTI
+                  osserva che 
+                  <quote source="#Foscolo_Martinetti">
+                      «Il Foscolo, senza dubbio, pigliò tale immagine
+                      da Catullo: <quote source="#Catullo">
+                        <foreign xml:lang="lat">
+                           Si quidquam mutis gratum acceptumque sepulcris<lb/>
+                           accidere a nostro, Calve, dolore potest<lb/>
+                        </foreign>
+                      </quote>_ ecc., dove però avvertono i commentatori che
+                      <emph>sepulcris</emph> è per <emph>sepultis</emph>; ma anche Properzio: 
+                    <quote source="#Properzio">Desine, Paule, meum lacrymis urgere sepulcrum, sebbene né sepolcri né sepolti lacrymis urgentur</quote>»
+                  </quote>.
+               </note>
+               <note target="#Se3">
+                  <ref rend="bold">3. duro</ref>: nel senso sopra indicato in nota ai vv. 1-3, sulla scorta dell’ascendenza
+                  virgiliana (<emph>Aen</emph>., X, 745-6: 
+                  <quote source="#Virgilio_Eneide" ana="X, vv.745-6">
+                    <foreign xml:lang="lat"> 
+                       «olii dura quies oculos et ferreus urget <lb/>
+                       somnus [...]»
+                    </foreign>
+                  </quote>) segnalata dal FERRARI (
+                  <quote source="#Foscolo_Ferrari">«Come dicesse: Possono i sensi tornar vigili? destarsi?»</quote>
+                  ); e vedi <emph>In morte di Amaritte</emph>, 24, a p. 40: 
+                  <quote source="#Foscolo_Amaritte">«dal ferreo sonno di lor ampie grotte»</quote>.
+               </note>
+               <note target="#Se3" targetEnd="#Se5">
+                  <ref rend="bold">3-5. Ove...animali</ref>: 
+                  quando il sole avrà cessato di splendere e di fecondare il creato, agli occhi miei (<emph>per me</emph>;
+                  così come ai vv. 6-7 <emph>le ore innanzi / a me non danzeran</emph>). E vedi <emph>Ortis</emph>
+                  (1802): 
+                  <quote source="#Foscolo_Ortis">
+                     «Io salutava a ogni passo la famiglia de’ fiori e dell’erbe»
+                  </quote>
+                  , qui a p. 576. L’immagine è autorizzata da PETRARCA, <emph>Rime</emph>, CCCX, 1-2: 
+                  <quote source="#Petrarca_Rime" ana="CCCX, vv.1-2">
+                     <l>«Zephiro torna, e 'l bel tempo rimena,</l> 
+                     <l>e i fiori et l’erbe, sua dolce famiglia»</l>
+                  </quote>
+                  (<bibl corresp="#Foscolo_Trevisan">TREVISAN</bibl>), e da MONTI, <emph>La bellezza dell’universo</emph>, 84: 
+                  <quote source="#Monti_Bellezza">«la vaga delle belve ampia famiglia»</quote> (<bibl corresp="#Foscolo_Trevisan">TREVISAN</bibl>).
+                  <ref rend="bold">4. alla terra</ref>: sulla terra; 
+                  <ref rend="bold">fecondi</ref>:faccia nascere. Vedi MONTI, <emph>Il Bardo della Selva Nera</emph>, VI, 213-5: 
+                  <quote source="#Monti_Bardo">
+                     <l>«Per lui [sole] natura si feconda e ride,</l> 
+                     <l>per lui la danza armonica s’alterna</l>
+                     <l>delle stagion [...]»</l>
+                  </quote> (<bibl corresp="#Foscolo_Martientti">MARTINETTI</bibl>).
+               </note>
+            </noteGrp>  
+         </div>
+      </body>
+  </text>
+</TEI>
