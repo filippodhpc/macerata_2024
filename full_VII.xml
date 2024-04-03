@@ -38,8 +38,8 @@
             <!-- Lista degli esemplari a stampa del sonetto-->
             <listWit>
                <listWit>
-                  <witness>
-                     <bibl xml:id="Pg" type="rivista">
+                  <witness xml:id="Pg">
+                     <bibl type="rivista">
                         <title>Nuovo giornale dei Letterati, tomo IV, Fascicolo di ottobre</title>
                         <author>Ugo Foscolo</author>
                         <date when="1802">1802</date>
@@ -47,8 +47,8 @@
                         <editor>Tipografia della società letteraria</editor>
                      </bibl>
                   </witness>
-                  <witness>
-                     <bibl xml:id="Ps" type="volume">
+                  <witness xml:id="Ps">
+                     <bibl type="volume">
                         <title>Poesie di Ugo Foscolo</title>
                         <author>Ugo Foscolo</author>
                         <editor>Tipografia della società letteraria</editor>
@@ -58,8 +58,8 @@
                   </witness>
                </listWit>
                <listWit>
-                  <witness>
-                     <bibl xml:id="Md" type="volume">
+                  <witness xml:id="Md">
+                     <bibl type="volume">
                         <title>Poesie di Ugo Foscolo <emph>Sollicitae oblivia vitae</emph> Hor.</title>
                         <author>Ugo Foscolo</author>
                         <editor>De Stefanis</editor>
@@ -67,8 +67,8 @@
                         <pubPlace>Milano</pubPlace>
                      </bibl>
                   </witness>
-                  <witness>
-                     <bibl xml:id="Mn" type="volume">
+                  <witness xml:id="Mn">
+                     <bibl type="volume">
                         <title>Poesie di Ugo Foscolo Seconda edizione accresciuta <emph>Sollicitae oblivia vitae</emph> Hor.</title>
                         <author>Ugo Foscolo</author>
                         <editor>Agnello Nobile</editor>
